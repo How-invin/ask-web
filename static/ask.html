@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>人口普查信息表</title>
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="ask.css">
+
+
+	</head>
+
+	<body>
+		<center>
+			<h1>问卷调查</h1>
+			<form action="." method="post">
+				姓&emsp;&emsp;名:&emsp; <input type="text" name="name"> </br>
+				电&emsp;&emsp;话:&emsp; <input type="tel" name="telephone"></br>
+				性&emsp;&emsp;别:&emsp; <input type="radio" class="radi" name="gender" value="male">男&emsp;
+				<input type="radio" class="radi" name="gender" value="female">女&emsp;</br>
+				出生年月:&emsp; <input type="month" name="birthday"></br>
+				民&emsp;&emsp;族:&emsp; <input type="text" name="nationality"></br>
+				学&emsp;&emsp;历:&emsp; <select name="education"></br>
+					<option value="small">小学</option></br>
+					<option value="middle">中学</option></br>
+					<option value="large">大学</option></br>
+				</select></br>
+				身份证号:&emsp; <input type="text" name="identity"></br>
+				户口登记地: <input type="text" name="register-place"></br>
+				出生地:&emsp;&emsp; <input type="text" name="birth-place"></br>
+				现居住地:&emsp; <input type="text" name="reside-place"></br>
+				婚姻状况:&emsp; <input type="radio" class="radi" name="marital-status" value="yes"> 已婚
+				<input type="radio" class="radi"  name="marital-status" value="no"> 未婚</br>
+				<center>
+					<input type="submit" value="提交">
+				</center>
+
+			</form>
+
+		</center>
+
+
+
+
+	</body>
+
+</html>
